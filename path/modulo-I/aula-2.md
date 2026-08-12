@@ -1,10 +1,8 @@
-# Loops — Repetindo Código sem Repetir Trabalho
+# Loops : Repetindo Código sem Repetir Trabalho
 
 Até agora, você aprendeu a guardar valores em variáveis e a tomar decisões com `if`, `else` e `switch`.
 
-Mas imagine o seguinte: você precisa imprimir os números de 1 até 100. Copiar e colar `System.out.println` cem vezes? Funciona… mas ninguém merece isso.
-
-Para situações em que o mesmo bloco de código precisa rodar várias vezes, existem os **loops** (laços de repetição).
+Mas imagine o seguinte: você precisa imprimir os números de 1 até 100. Copiar e colar `System.out.println` cem vezes? Funciona… mas ninguém merece isso. E para situações em que o mesmo bloco de código precisa rodar várias vezes, existem os **loops** (laços de repetição).
 
 Pense em uma esteira de fábrica: enquanto houver peças, o processo continua. Quando a condição deixa de ser verdadeira, a esteira para.
 
@@ -425,18 +423,4 @@ Percorra os números de `1` até `50` e classifique cada um:
 
 ---
 
-## Resumo
-
-Neste capítulo você aprendeu:
-
-- O que são loops e por que eles evitam repetição manual de código.
-- Como usar o `while`.
-- Como usar o `do-while` (executa ao menos uma vez).
-- Como usar o `for` quando se sabe quantas repetições haverá.
-- A diferença entre `while`, `do-while` e `for`.
-- Os atalhos `++`, `--`, `+=` e similares.
-- Como usar `break` para interromper um loop.
-- Como usar `continue` para pular uma repetição.
-- Como combinar loops (loops aninhados).
-
-Com condicionais e loops, você já consegue escrever programas que tomam decisões e repetem tarefas — a base de praticamente qualquer software.
+Com condicionais e loops, você já consegue escrever programas que tomam decisões e repetem tarefas, a base de praticamente qualquer software.
