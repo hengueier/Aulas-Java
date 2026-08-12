@@ -329,12 +329,10 @@ public class Produto {
 
 ## Por que encapsular?
 
-1. **Proteção** — evita estados inválidos (`idade = -3`)
-2. **Controle** — mudanças passam por regras (`sacar`, `depositar`)
-3. **Manutenção** — se a regra mudar, você altera em um lugar só
-4. **Clareza** — a classe mostra *como* deve ser usada
-
-Encapsulamento não é burocracia: é contrato. “Se quiser mexer nisso, use esta porta.”
+1. **Proteção**: evita estados inválidos (`idade = -3`)
+2. **Controle** : mudanças passam por regras (`sacar`, `depositar`)
+3. **Manutenção** : se a regra mudar, você altera em um lugar só
+4. **Clareza** : a classe mostra *como* deve ser usada
 
 ---
 
@@ -492,5 +490,3 @@ Crie a classe `Livro` encapsulada com:
 No `main`, crie dois livros, empreste um, tente emprestar de novo e depois devolva.
 
 ---
-
-Encapsulamento é o primeiro pilar da POO que você coloca em prática de verdade: esconder o “como” e expor só o “o quê”. Na sequência, o caminho natural é trabalhar com **arrays e listas** para lidar com vários objetos juntos — vários alunos, vários produtos, várias contas.
