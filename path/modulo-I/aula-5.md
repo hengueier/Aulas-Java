@@ -490,3 +490,75 @@ Crie a classe `Livro` encapsulada com:
 No `main`, crie dois livros, empreste um, tente emprestar de novo e depois devolva.
 
 ---
+
+
+package Encapsulamento;
+
+public class Exercicio1 {
+
+    public static void main(String[] args) {
+
+
+        Pessoa p1 = new Pessoa("Anna", -10);
+
+
+        p1.setIdade(33);
+
+        p1.setIdade(-22); // esta idade é inválida.
+
+        p1.apresentar();
+    }
+}
+
+
+package Encapsulamento;
+
+
+public class Pessoa {
+
+    // Atributos encapsulado
+    private String nome;
+    private int idade;
+
+
+    // Construtor:
+    public Pessoa(String nome, int idade) {
+        this.nome = nome;
+        this.setIdade(idade); //validação da idade
+    }
+
+
+    // GETTER:
+     public int getIdade() {
+        return idade;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    // SETTER:
+    public void setIdade(int idade) {
+
+        if (idade >= 0 && idade <= 150) {
+
+            // Se for válida, o novo valor é armazenado.
+            this.idade = idade;
+        }
+    }
+
+
+    // SETTER:
+    public void setNome(String nome) {
+
+        this.nome = nome;
+    }
+
+
+    //MÉTODO
+    public void apresentar() {
+
+        System.out.println(nome + ", você tem " + idade + " anos.");
+    }
+}
+
