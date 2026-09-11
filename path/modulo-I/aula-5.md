@@ -541,9 +541,11 @@ public class Pessoa {
     public void setIdade(int idade) {
 
         if (idade >= 0 && idade <= 150) {
-
             // Se for válida, o novo valor é armazenado.
             this.idade = idade;
+        } else { 
+            System.out.println("Idade invalida. Setando valor 0");
+            this.idade = 0;
         }
     }
 
