@@ -6,8 +6,8 @@ Mas e se você precisar das notas de 30 alunos? Criar `nota1`, `nota2`, `nota3`�
 
 Para isso existem as **coleções**: estruturas que guardam vários valores sob um mesmo nome. Nesta aula vamos ver duas:
 
-1. **Array** — tamanho fixo, mais “cru”
-2. **ArrayList** — tamanho flexível, com métodos como adicionar e remover (o famosos “push/pop” de outras linguagens)
+1. **Array** - tamanho fixo, mais “cru”
+2. **ArrayList** - tamanho flexível, com métodos como adicionar e remover (o famosos “push/pop” de outras linguagens)
 
 Na aula de classes, o desafio do carrinho pediu para somar itens “na mão”. Agora você tem a ferramenta certa para isso.
 
