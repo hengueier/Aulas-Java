@@ -6,6 +6,5 @@ public class Main {
        for (int segundos=1; segundos <= 20; segundos ++) {
            System.out.println(segundos);
        }
-
     }
 }
