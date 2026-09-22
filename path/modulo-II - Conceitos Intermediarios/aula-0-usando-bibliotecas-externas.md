@@ -1,10 +1,18 @@
 # Usando Bibliotecas Externas: Não Precisa Inventar a Roda (De Novo)
 
-Até agora você escreveu Java “puro”, tipo sobrevivente da floresta: JDK, classes suas, e torcida pra dar certo.
+Ok, aprendemos o basico, o beaba de como rodar um programa Java e utilizar seus dados para criar um pequeno programa bancario.
 
-No mundo real, ninguém reimplementa HTTP, JSON, logs e conexão com banco do zero só pra provar que consegue. Existe um ecossistema enorme de bibliotecas — e a arte é **usar bem** sem transformar o projeto num Frankenstein de dependências.
+Mas vamos supor que voce fosse realmente fazer um programa bancario, na industria, como voce faria ? Simplesmente trabalharia com floats e inteiros em classes publicas e privadas ?
 
-Esta aula é sobre: baixar código de outras pessoas, plugar no seu projeto e não chorar quando o classpath explode.
+Esse modulo utiliza nao so conceitos do Java, pois as linguagens compartilham alguns conceitos comuns, como processamento, apis, chamadas externas e seguranca com uma dose de criptografia.
+
+Aqui voce vai aprender o por que programacao eh util, e sabendo isso ja te destaca de grande parte do mercado de trabalho.
+
+Porque vai por mim.
+
+Tem muito senior que nao sabe o que eh um Big-O.
+
+Essa sera a parte mais massante, entao faz um cafe e vai com calma.
 
 ---
 
